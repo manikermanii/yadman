@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="favEmeraldMain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#145C47"/>
+      <stop offset="50%" stop-color="#0F4C3A"/>
+      <stop offset="100%" stop-color="#072F24"/>
+    </linearGradient>
+    <linearGradient id="favEmeraldLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1D735B"/>
+      <stop offset="100%" stop-color="#0F4C3A"/>
+    </linearGradient>
+    <linearGradient id="favEmeraldDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0B3C2E"/>
+      <stop offset="100%" stop-color="#052018"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="200" height="200" rx="44" fill="#FAF8F5"/>
+  
+  <g transform="translate(4, 5) scale(0.95)">
+    <!-- Top Sprout Leaf (Left) -->
+    <path d="M 94 54 C 94 43 86 32 90 26 C 99 30 104 40 101 52 Z" fill="url(#favEmeraldLight)"/>
+    <path d="M 90 26 C 95 34 95 45 94 54" stroke="#072F24" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+    
+    <!-- Heart (Right) -->
+    <path d="M 112 28 C 108 24 104 25 103 29 C 102 25 98 24 95 28 C 91 33 98 40 103 44 C 108 40 115 33 112 28 Z" fill="url(#favEmeraldMain)"/>
+    
+    <!-- Sprout Stem -->
+    <path d="M 97 52 Q 99 62 100 66" stroke="#0F4C3A" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+    <!-- Left & Right Wing Ribbons -->
+    <path d="M 76 156 C 48 153 32 126 34 96 C 36 88 38 82 41 78 C 42 82 44 99 49 110 C 57 129 70 145 88 150 Z" fill="url(#favEmeraldMain)"/>
+    <path d="M 124 156 C 152 153 168 126 166 96 C 164 88 162 82 159 78 C 158 82 156 99 151 110 C 143 129 130 145 112 150 Z" fill="url(#favEmeraldDark)"/>
+
+    <!-- Top Ribbon Bow Loops -->
+    <path d="M 100 68 C 88 47 60 51 52 67 C 46 80 64 93 96 79 Z" fill="url(#favEmeraldLight)"/>
+    <path d="M 100 68 C 112 47 140 51 148 67 C 154 80 136 93 104 79 Z" fill="url(#favEmeraldMain)"/>
+
+    <!-- Center Knot -->
+    <circle cx="100" cy="72" r="5.5" fill="url(#favEmeraldDark)"/>
+
+    <!-- Gift Box Base Body -->
+    <path d="M 58 104 L 94 104 L 94 155 C 94 156 68 156 58 151 C 57 147 57 110 58 104 Z" fill="url(#favEmeraldMain)"/>
+    <path d="M 94 104 L 94 155 C 88 155 81 154 76 152 L 76 104 Z" fill="url(#favEmeraldDark)" opacity="0.35"/>
+
+    <path d="M 106 104 L 142 104 C 143 110 143 147 142 151 C 132 156 106 156 106 155 Z" fill="url(#favEmeraldDark)"/>
+    <path d="M 106 104 L 124 104 L 124 152 C 116 154 110 155 106 155 Z" fill="url(#favEmeraldLight)" opacity="0.25"/>
+
+    <!-- Center Vertical Ribbon -->
+    <rect x="94" y="86" width="12" height="70" fill="url(#favEmeraldLight)"/>
+
+    <!-- Lid -->
+    <rect x="49" y="84" width="102" height="20" rx="6" fill="url(#favEmeraldMain)"/>
+    <path d="M 55 86 L 145 86 C 149 86 150 88 150 90 L 50 90 C 50 88 51 86 55 86 Z" fill="#3AA084" opacity="0.35"/>
+    <rect x="94" y="84" width="12" height="20" fill="url(#favEmeraldLight)"/>
+  </g>
+</svg>
